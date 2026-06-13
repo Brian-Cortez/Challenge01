@@ -2,17 +2,11 @@ using UnityEngine;
 
 public class AddVectors : MonoBehaviour
 {
-    void AddVectors(Vector3 vector1, Vector3 vector2)
+    void Start()
     {
         Vector3 vector1 = new Vector3(1, 2, 3);
         Vector3 vector2 = new Vector3(4, 5, 6);
         Vector3 result = vector1 + vector2;
-        Debug.Log("Result: " + result);
-    }
-
-    void SubtractVectors(Vector3 vector1, Vector3 vector2)
-    {
-        Vector3 result = vector1 - vector2;
         Debug.Log("Result: " + result);
     }
 }
